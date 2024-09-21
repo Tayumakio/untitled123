@@ -13,6 +13,11 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
 
+            //TIP Press <shortcut actionId="EvaluateExpression"/> to evaluate any expression in your code.\
+            // You can also use <shortcut actionId="QuickJavaDoc"/> to see the documentation for any class or method.
+            if (i == 5) {
+                System.out.println("i is 5");
+            }
 
         }
 
